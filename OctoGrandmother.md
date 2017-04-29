@@ -1,3 +1,0 @@
-OctoGrandmother
-
-OctoGrandmother text
