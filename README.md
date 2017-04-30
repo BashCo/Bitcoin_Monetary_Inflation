@@ -1,9 +1,11 @@
-Bitcoin Monetary Inflation
+BashCo's GitHub Pages repo
 ========
+
+## Bitcoin Monetary Inflation
 
 This chart visualizes the monetary inflation schedule used in Bitcoin.
 
-For more info, visit: https://en.bitcoin.it/wiki/Controlled_supply
+For more info, visit: [https://en.bitcoin.it/wiki/Controlled_supply](https://en.bitcoin.it/wiki/Controlled_supply)
 
 [Interactive chart here](http://bashco.github.io/Bitcoin_Monetary_Inflation/)
 
