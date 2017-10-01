@@ -1,0 +1,57 @@
+body{
+	text-align: center;
+	background: #00acec;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #fff;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 66px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #008cbf;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #005981;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.info{
+	font-family: sans-serif;
+	color: #fff;
+
+	padding-top: 20px;
+	font-size: 16px;
+}
+
+.endday{
+	font-family: sans-serif;
+	color: #fff;
+	padding-top: 20px;
+	font-size: 32px;
+}
+
