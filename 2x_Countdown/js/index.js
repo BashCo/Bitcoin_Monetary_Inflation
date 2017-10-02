@@ -1,5 +1,5 @@
 function getBlockheight () {
-  //return 487826 + 600; // testing
+  //return 470000 + 600; // testing
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "https://blockexplorer.com/api/status?q=getBlockCount", false);
   xhr.setRequestHeader('Content-Type', 'text/xml');
