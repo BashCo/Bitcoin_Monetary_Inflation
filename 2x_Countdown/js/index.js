@@ -60,8 +60,10 @@ interval = 600; // ten minute blocks
 var forkday = new Date(Date.parse(new Date()) + getSecondsRemaining(blockheight, targetblock, interval));
 
 var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: "numeric", minute: "numeric"}; 
+var optionsTZ = {timeZoneName: "long"}; 
 
-document.getElementById("endday").innerHTML = forkday.toLocaleDateString('en-EN', options); //toLocaleFormat('%B %d, %Y at %H:%M');;
+document.getElementById("endday").innerHTML = forkday.toLocaleDateString('en-EN', options); //toLocaleFormat('%B %d, %Y at %H:%M');
+document.getElementById("tz").innerHTML = (forkday.toLocaleDateString('en-EN', optionsTZ)).split(", ")[1]; 
 document.getElementById("blockinfo").innerHTML = "current block: " + blockheight +  "<br>fork block: " + targetblock + "<br>blocks remaining: " + (targetblock - blockheight);
 console.log(blockheight);
 console.log(forkday);

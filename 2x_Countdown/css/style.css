@@ -40,10 +40,17 @@ h1{
 	font-size: 16px;
 }
 
+.tz{
+	font-family: sans-serif;
+	color: #fff;
+	padding-top: 5px;
+	font-size: 12px;
+}
+
+
 .info{
 	font-family: sans-serif;
 	color: #fff;
-
 	padding-top: 20px;
 	font-size: 16px;
 }
