@@ -64,7 +64,7 @@ var optionsTZ = {timeZoneName: "long"};
 
 var locale = navigator.language || 'en-EN';
 if (locale !== 'en' && locale !== 'EN-US' && locale !== 'en-EN')
-  options.hour12 = false
+  options.hour12 = true
 
 document.getElementById("endday").innerHTML = forkday.toLocaleDateString('en-EN', options); //toLocaleFormat('%B %d, %Y at %H:%M');
 document.getElementById("tz").innerHTML = (forkday.toLocaleDateString('en-EN', optionsTZ)).split(", ")[1]; 
