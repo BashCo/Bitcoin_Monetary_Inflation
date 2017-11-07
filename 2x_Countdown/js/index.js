@@ -62,6 +62,10 @@ var forkday = new Date(Date.parse(new Date()) + getSecondsRemaining(blockheight,
 var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: "numeric", minute: "numeric"}; 
 var optionsTZ = {timeZoneName: "long"}; 
 
+var locale = navigator.language || 'en-EN';
+if (locale !== 'en' && locale !== 'EN-US' && locale !== 'en-EN')
+  options.hour12 = false
+
 document.getElementById("endday").innerHTML = forkday.toLocaleDateString('en-EN', options); //toLocaleFormat('%B %d, %Y at %H:%M');
 document.getElementById("tz").innerHTML = (forkday.toLocaleDateString('en-EN', optionsTZ)).split(", ")[1]; 
 document.getElementById("blockinfo").innerHTML = "current block: " + blockheight +  "<br>fork block: " + targetblock + "<br>blocks remaining: " + (targetblock - blockheight);
