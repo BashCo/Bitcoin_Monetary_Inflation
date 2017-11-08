@@ -1,56 +1,70 @@
 <!DOCTYPE html>
-<!--blockheight provided by blockexplorer.com-->
-<!--javascript counter based on https://codepen.io/SitePoint/pen/MwNPVq-->
-
-<html>
+<html >
 <head>
   <meta charset="UTF-8">
   <title>2x Countdown</title>
-  
-  
-      <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="description" content="Countdown to proposed 2x hard fork attempt.">
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="2x Countdown"/>
-    <meta name="twitter:description" content="Countdown to proposed 2x hard fork attempt."/>
-    <meta name="twitter:image" content="https://bashco.github.io/2x_Countdown/preview.png"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Neuton|Oswald'>
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body {
+  font: 400 1em/1.5 "Neuton";
+  background: #090d00;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, 0.25);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+}
+p span {
+  font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 10px rgba(247, 147, 26, 0.5);
+  /* Clip Background Image */
+background-color: #e1881d;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
+    </style>
+
+
 </head>
 
 <body>
-  <h1>2x Countdown</h1>
-<div id="clockdiv">
-  <div>
-    <span class="days"></span>
-    <div class="smalltext">Days</div>
-  </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
-</div>
+  <p>
+  BITCOIN IS DEAD
+  <span>
+    Segwit2x<br>suspended
+  </span>
+  &mdash; LONG LIVE BITCOIN &mdash;
+</p>
+
   
-<div id="infodiv">
-  <div id="endday" class="endday">estimating...</div>
-  <div id="tz" class="tz"></div>
-  <div class="info" align="center">This is a rough estimate based on the current block height, proposed block height <br>to attempt a hard fork, and an average block time of ten minutes per block.</div>
-  <div id="blockinfo" class="info"></div>
-
-
-</div>
-
-
-    <script  src="js/index.js"></script>
-
 </body>
 </html>
