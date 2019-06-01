@@ -41,7 +41,7 @@ data = [trace1, trace2];
 layout = {
   annotations: [
     {
-      x: 520000, 
+      x: 580000, 
       y: 0.623249290398, 
       arrowhead: 3, 
       arrowsize: 0.6, 
