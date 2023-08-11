@@ -1,0 +1,5 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore .DS_Store files in subdirectories
+**/.DS_Store
